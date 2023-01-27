@@ -1,6 +1,9 @@
 # ml-cli
 Creating a simple Machine Learning command line interface that will provide output.
 
+## Examples of auto-generated reports from the ml-cli can be found here:
+https://jameshtwose.github.io/ml-cli/
+
 ## To run the CLI do the following:
 - clone the repo:
   - `git clone git@github.com:jameshtwose/ml-cli.git`

@@ -18,7 +18,7 @@ def create_date_html():
 
     """
 
-    return f"<p>This protocol was run on {pd.to_datetime(datetime.now()).round('1s')}</p>"
+    return f"<p>This report was created on {pd.to_datetime(datetime.now()).round('1s')}</p>"
 
 
 def classification_report_template(
@@ -43,16 +43,6 @@ def classification_report_template(
     ----------
     filename: str
         A string indicating the name of the created file
-    date_insert: str
-        A string of the html ready date and time
-    text_passed_to_MATT_insert: str
-        A string of the html ready text passed to MATT
-    correctness_metrics_insert: str
-        A string of the html ready metrics table
-    correct_amount_per_error_insert: str
-        A string of the html ready correct per error type table
-    pictures_folder: str
-        A string indicating the folder from which to pull the plots from
 
     Returns
     -------
@@ -70,8 +60,8 @@ def classification_report_template(
         --yellow: #fcdd14;
         --yellowgradient: #fcdd1462;
         --white: #ffffff;
-        --purple: #691397;
-        --purplegradient: #691397ce;
+        --purple: #43125d;
+        --purplegradient: #43125dce;
         color: var(--purple);
     }
 
